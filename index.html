@@ -13,16 +13,50 @@
     <div id="container">
         <div id="side-panel">
             <div id="transparent-back">
-                <h1 class="h1">Mockup</h1>
+                <img class="logo" src="logo-html5.svg" alt="HTML logo">
+                <h1 class="side-h1">Log In From</h1>
+                <img class="logo" src="logo-css3.svg" alt="CSS logo">
             </div>
         </div>
         <div id="content">
-            <div id="msg">
+            <div class="section">
                 <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
                 <p>You <i>know</i> you want to.</p>
             </div>
-            <div id="main-form"></div>
-            <div id="create-acc"></div>
+            <div>
+                <form id="form">
+                    <h3>Let's do this!</h3>
+                    <fieldset id="inputs">
+                        <label for="f_name">
+                            FIRST NAME
+                            <input type="text" name="f_name" id="f_name" required>
+                        </label>
+                        <label for="l_name">
+                            LAST NAME
+                            <input type="text" name="l_name" id="l_name" required>
+                        </label>
+                        <label for="email">
+                            EMAIL
+                            <input type="email" name="email" id="email" required>
+                        </label>
+                        <label for="phone">
+                            PHONE NUMBER
+                            <input type="tel" name="phone" id="phone">
+                        </label>
+                        <label for="pass">
+                            PASSWORD
+                            <input type="password" name="password" id="pass" required>
+                        </label>
+                        <label for="conf_pass">
+                            CONFIRM PASSWORD
+                            <input type="password" name="conf_password" id="conf_pass" required>
+                        </label>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="section">
+                <button type="submit" form="form">Create Account</button>
+            </div>
         </div>
     </div>
 </body>
