@@ -19,38 +19,53 @@
             </div>
         </div>
         <div id="content">
-            <div class="section">
-                <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <i>now</i> to get started.</p>
-                <p>You <i>know</i> you want to.</p>
+            <div id="greeting" class="section">
+                <div class="para">
+                    <p class="bold" >This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
+                    <p class="bold" >Sign up <i>now</i> to get started.</p>
+                </div>
+                <p class="bold margin" >You <i>know</i> you want to.</p>
             </div>
             <div>
                 <form id="form">
-                    <h3>Let's do this!</h3>
+                    <p class="bold marg" >Let's do this!</p>
                     <fieldset id="inputs">
-                        <label for="f_name">
-                            FIRST NAME
+                        <div class="single-input">
+                            <label for="f_name">
+                                FIRST NAME
+                            </label>
                             <input type="text" name="f_name" id="f_name" required>
-                        </label>
-                        <label for="l_name">
-                            LAST NAME
+                        </div>
+                        <div class="single-input">
+                            <label for="l_name">
+                                LAST NAME
+                            </label>
                             <input type="text" name="l_name" id="l_name" required>
-                        </label>
-                        <label for="email">
-                            EMAIL
+                        </div>           
+                        <div class="single-input">
+                            <label for="email">
+                                EMAIL
+                            </label>
                             <input type="email" name="email" id="email" required>
-                        </label>
-                        <label for="phone">
-                            PHONE NUMBER
+                        </div>          
+                        <div class="single-input">
+                            <label for="phone">
+                                PHONE NUMBER
+                            </label>
                             <input type="tel" name="phone" id="phone">
-                        </label>
-                        <label for="pass">
-                            PASSWORD
+                        </div>               
+                        <div class="single-input">
+                            <label for="pass">
+                                PASSWORD
+                            </label>
                             <input type="password" name="password" id="pass" required>
-                        </label>
-                        <label for="conf_pass">
-                            CONFIRM PASSWORD
+                        </div>
+                        <div class="single-input">
+                            <label for="conf_pass">
+                                CONFIRM PASSWORD
+                            </label>
                             <input type="password" name="conf_password" id="conf_pass" required>
-                        </label>
+                        </div>
                     </fieldset>
                 </form>
             </div>
